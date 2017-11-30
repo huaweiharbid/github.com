@@ -1,0 +1,757 @@
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+  <link rel="dns-prefetch" href="https://assets-cdn.github.com">
+  <link rel="dns-prefetch" href="https://avatars0.githubusercontent.com">
+  <link rel="dns-prefetch" href="https://avatars1.githubusercontent.com">
+  <link rel="dns-prefetch" href="https://avatars2.githubusercontent.com">
+  <link rel="dns-prefetch" href="https://avatars3.githubusercontent.com">
+  <link rel="dns-prefetch" href="https://github-cloud.s3.amazonaws.com">
+  <link rel="dns-prefetch" href="https://user-images.githubusercontent.com/">
+
+
+
+  <link crossorigin="anonymous" href="https://assets-cdn.github.com/assets/frameworks-c9193575f18b28be82c0a963e144ff6fa7a809dd8ae003a1d1e5979bed3f7f00.css" media="all" rel="stylesheet" />
+  <link crossorigin="anonymous" href="https://assets-cdn.github.com/assets/github-9ed815ea772b21ac723e5af484a801e4529591a0abda03969434dc16af6ecf16.css" media="all" rel="stylesheet" />
+  
+  
+  <link crossorigin="anonymous" href="https://assets-cdn.github.com/assets/site-40d3ebebbd14d73c1a2f449e109a016ab13b3ba29987bc4f8eff487787682a7b.css" media="all" rel="stylesheet" />
+  
+
+  <meta name="viewport" content="width=device-width">
+  
+  <title>Intuitive code review tools | GitHub Features · GitHub</title>
+  <link rel="search" type="application/opensearchdescription+xml" href="/opensearch.xml" title="GitHub">
+  <link rel="fluid-icon" href="https://github.com/fluidicon.png" title="GitHub">
+  <meta property="fb:app_id" content="1401488693436528">
+
+    <meta property="og:url" content="https://github.com">
+    <meta property="og:site_name" content="GitHub">
+    <meta property="og:title" content="Build software better, together">
+    <meta property="og:description" content="GitHub is where people build software. More than 26 million people use GitHub to discover, fork, and contribute to over 72 million projects.">
+    <meta property="og:image" content="https://assets-cdn.github.com/images/modules/open_graph/github-logo.png">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="1200">
+    <meta property="og:image" content="https://assets-cdn.github.com/images/modules/open_graph/github-mark.png">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="620">
+    <meta property="og:image" content="https://assets-cdn.github.com/images/modules/open_graph/github-octocat.png">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="620">
+
+
+  <link rel="assets" href="https://assets-cdn.github.com/">
+  
+  <meta name="pjax-timeout" content="1000">
+  
+  <meta name="request-id" content="F7FE:3B9A:1F4C374:37C7551:5A200B45" data-pjax-transient>
+  
+
+  <meta name="selected-link" value="/features/code-review" data-pjax-transient>
+
+  <meta name="google-site-verification" content="KT5gs8h0wvaagLKAVWq8bbeNwnZZK1r1XQysX3xurLU">
+<meta name="google-site-verification" content="ZzhVyEFwb7w3e0-uOTltm8Jsck2F5StVihD0exw2fsA">
+    <meta name="google-analytics" content="UA-3769691-2">
+
+<meta content="collector.githubapp.com" name="octolytics-host" /><meta content="github" name="octolytics-app-id" /><meta content="https://collector.githubapp.com/github-external/browser_event" name="octolytics-event-url" /><meta content="F7FE:3B9A:1F4C374:37C7551:5A200B45" name="octolytics-dimension-request_id" /><meta content="iad" name="octolytics-dimension-region_edge" /><meta content="iad" name="octolytics-dimension-region_render" />
+
+
+
+
+
+  <meta class="js-ga-set" name="dimension1" content="Logged Out">
+
+
+  
+
+      <meta name="hostname" content="github.com">
+  <meta name="user-login" content="">
+
+      <meta name="expected-hostname" content="github.com">
+    <meta name="js-proxy-site-detection-payload" content="ZjIwMTY4OTFiZDE2NWI4ZmU1YTkxMmVjYjM3OWM3YmJiZDI4MWMxYmNkZmUwNWZmNTcwZWQyOTRmZjcxYzM0Znx7InJlbW90ZV9hZGRyZXNzIjoiMTc5Ljk5LjU1LjUiLCJyZXF1ZXN0X2lkIjoiRjdGRTozQjlBOjFGNEMzNzQ6MzdDNzU1MTo1QTIwMEI0NSIsInRpbWVzdGFtcCI6MTUxMjA0OTQ3NywiaG9zdCI6ImdpdGh1Yi5jb20ifQ==">
+
+
+  <meta name="html-safe-nonce" content="b7e1c819c86036e361f592efe7cf5e31e436ce65">
+
+  <meta http-equiv="x-pjax-version" content="fcc2ac04d9d4cc6d7c4a7381e4f11c31">
+  
+
+      <meta name="viewport" content="width=device-width">
+  <link crossorigin="anonymous" href="https://assets-cdn.github.com/assets/site-40d3ebebbd14d73c1a2f449e109a016ab13b3ba29987bc4f8eff487787682a7b.css" media="all" rel="stylesheet" />
+
+
+
+
+  <meta name="browser-stats-url" content="https://api.github.com/_private/browser/stats">
+
+  <meta name="browser-errors-url" content="https://api.github.com/_private/browser/errors">
+
+  <link rel="mask-icon" href="https://assets-cdn.github.com/pinned-octocat.svg" color="#000000">
+  <link rel="icon" type="image/x-icon" class="js-site-favicon" href="https://assets-cdn.github.com/favicon.ico">
+
+<meta name="theme-color" content="#1e2327">
+
+
+
+  </head>
+
+  <body class="logged-out env-production page-responsive min-width-0 f4">
+    
+
+  <div class="position-relative js-header-wrapper ">
+    <a href="#start-of-content" tabindex="1" class="px-2 py-4 show-on-focus js-skip-to-content">Skip to content</a>
+    <div id="js-pjax-loader-bar" class="pjax-loader-bar"><div class="progress"></div></div>
+
+    
+    
+    
+
+
+
+        <header class="Header header-logged-out js-details-container Details position-relative f4 py-3" role="banner">
+  <div class="container-lg d-lg-flex p-responsive">
+    <div class="d-flex flex-justify-between flex-items-center">
+      <a class="header-logo-invertocat my-0" href="https://github.com/" aria-label="Homepage" data-ga-click="(Logged out) Header, go to homepage, icon:logo-wordmark">
+        <svg aria-hidden="true" class="octicon octicon-mark-github" height="32" version="1.1" viewBox="0 0 16 16" width="32"><path fill-rule="evenodd" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z"/></svg>
+      </a>
+
+        <button class="btn-link d-lg-none mt-1 js-details-target" type="button" aria-label="Toggle navigation" aria-expanded="false">
+          <svg aria-hidden="true" class="octicon octicon-three-bars text-white" height="24" version="1.1" viewBox="0 0 12 16" width="18"><path fill-rule="evenodd" d="M11.41 9H.59C0 9 0 8.59 0 8c0-.59 0-1 .59-1H11.4c.59 0 .59.41.59 1 0 .59 0 1-.59 1h.01zm0-4H.59C0 5 0 4.59 0 4c0-.59 0-1 .59-1H11.4c.59 0 .59.41.59 1 0 .59 0 1-.59 1h.01zM.59 11H11.4c.59 0 .59.41.59 1 0 .59 0 1-.59 1H.59C0 13 0 12.59 0 12c0-.59 0-1 .59-1z"/></svg>
+        </button>
+    </div>
+
+    <div class="HeaderMenu HeaderMenu--bright d-lg-flex flex-justify-between flex-auto">
+        <nav class="mt-3 mt-lg-0">
+          <ul class="d-lg-flex list-style-none">
+              <li class="ml-lg-2">
+                <a href="/features" class="js-selected-navigation-item selected HeaderNavlink px-0 py-3 py-lg-2 m-0" data-ga-click="Header, click, Nav menu - item:features" data-selected-links="/features /features/project-management /features/code-review /features/project-management /features/integrations /features">
+                  Features
+</a>              </li>
+              <li class="ml-lg-4">
+                <a href="/business" class="js-selected-navigation-item HeaderNavlink px-0 py-3 py-lg-2 m-0" data-ga-click="Header, click, Nav menu - item:business" data-selected-links="/business /business/security /business/customers /business">
+                  Business
+</a>              </li>
+
+              <li class="ml-lg-4">
+                <a href="/explore" class="js-selected-navigation-item HeaderNavlink px-0 py-3 py-lg-2 m-0" data-ga-click="Header, click, Nav menu - item:explore" data-selected-links="/explore /trending /trending/developers /integrations /integrations/feature/code /integrations/feature/collaborate /integrations/feature/ship showcases showcases_search showcases_landing /explore">
+                  Explore
+</a>              </li>
+
+              <li class="ml-lg-4">
+                    <a href="/marketplace" class="js-selected-navigation-item HeaderNavlink px-0 py-3 py-lg-2 m-0" data-ga-click="Header, click, Nav menu - item:marketplace" data-selected-links=" /marketplace">
+                      Marketplace
+</a>              </li>
+              <li class="ml-lg-4">
+                <a href="/pricing" class="js-selected-navigation-item HeaderNavlink px-0 py-3 py-lg-2 m-0" data-ga-click="Header, click, Nav menu - item:pricing" data-selected-links="/pricing /pricing/developer /pricing/team /pricing/business-hosted /pricing/business-enterprise /pricing">
+                  Pricing
+</a>              </li>
+          </ul>
+        </nav>
+
+      <div class="d-lg-flex">
+          <div class="d-lg-flex flex-items-center mr-lg-3">
+            <div class="header-search   js-site-search" role="search">
+  <!-- '"` --><!-- </textarea></xmp> --></option></form><form accept-charset="UTF-8" action="/search" class="js-site-search-form" data-unscoped-search-url="/search" method="get"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /></div>
+    <label class="form-control header-search-wrapper js-chromeless-input-container">
+        <a href="/features/code-review" class="header-search-scope no-underline">/features/code-review</a>
+      <input type="text"
+        class="form-control header-search-input js-site-search-focus  "
+        data-hotkey="s"
+        name="q"
+        value=""
+        placeholder="Search GitHub"
+        aria-label="Search GitHub"
+        data-unscoped-placeholder="Search GitHub"
+        data-scoped-placeholder="Search"
+        autocapitalize="off">
+        <input type="hidden" class="js-site-search-type-field" name="type" >
+    </label>
+</form></div>
+
+          </div>
+
+        <span class="d-block d-lg-inline-block">
+            <div class="HeaderNavlink px-0 py-2 m-0">
+              <a class="text-bold text-white no-underline" href="/login?return_to=%2Ffeatures%2Fcode-review" data-ga-click="(Logged out) Header, clicked Sign in, text:sign-in">Sign in</a>
+                <span class="text-gray">or</span>
+                <a class="text-bold text-white no-underline" href="/join?source=header" data-ga-click="(Logged out) Header, clicked Sign up, text:sign-up">Sign up</a>
+            </div>
+        </span>
+      </div>
+    </div>
+  </div>
+</header>
+
+
+  </div>
+
+  <div id="start-of-content" class="show-on-focus"></div>
+
+    <div id="js-flash-container">
+</div>
+
+
+
+  <div role="main">
+        
+<div class="jumbotron-code-review">
+  <div class="site-subheader">
+    <div class="container-lg p-responsive">
+      <div class="d-flex flex-items-center flex-wrap flex-justify-between">
+        <ol class="bg-white">
+          <li class="breadcrumb-item alt-text-small"><a href="/features" class="text-gray">Features</a></li>
+          <li class="breadcrumb-item alt-text-small">Code Review</li>
+        </ol>
+        <nav class="d-none d-md-flex flex-items-center flex-wrap flex-justify-end subheader-nav py-md-2 bg-white alt-text-small">
+  <a href="/features/code-review" class="js-selected-navigation-item selected nav-item no-underline" data-selected-links="/features/code-review /features/code-review">
+    Code review
+</a>  <a href="/features/project-management" class="js-selected-navigation-item nav-item no-underline ml-3" data-selected-links="/features/project-management /features/project-management">
+    Project management
+</a>  <a href="/features/integrations" class="js-selected-navigation-item nav-item no-underline ml-3" data-selected-links="/features/integrations /features/integrations">
+    Integrations
+</a></nav>
+
+      </div>
+    </div>
+
+    <div class="jumbotron">
+      <div class="container-lg p-responsive text-center position-relative" style="z-index: 5;">
+        <svg xmlns="http://www.w3.org/2000/svg" data-name="Layer 1" viewBox="0 0 72 59.75" class="d-block mx-auto mb-5" width="100"><title>code-review</title><path d="M40.1 13.75h-9a1 1 0 0 1 0-2h9a1 1 0 0 1 0 2zM49.3 19.75H31.1a1 1 0 0 1 0-2h18.2a1 1 0 1 1 0 2zM59.3 13.75H46.1a1 1 0 0 1 0-2h13.2a1 1 0 1 1 0 2zM59.3 19.75h-4a1 1 0 0 1 0-2h4a1 1 0 1 1 0 2z" fill="#2088ff"></path><path d="M68.6 31.6H29.9a1 1 0 0 1 0-2h38.7a1.44 1.44 0 0 0 1.4-1.4V3.4A1.44 1.44 0 0 0 68.6 2H3.4A1.44 1.44 0 0 0 2 3.4v24.8a1.44 1.44 0 0 0 1.4 1.4h6.5a1 1 0 1 1 0 2H3.4A3.44 3.44 0 0 1 0 28.2V3.4A3.44 3.44 0 0 1 3.4 0h65.2A3.45 3.45 0 0 1 72 3.4v24.8a3.45 3.45 0 0 1-3.4 3.4z" fill="#79b8ff"></path><path d="M20.5 16.75h-9.3a1 1 0 0 1 0-2h9.3a1 1 0 0 1 0 2z" fill="#2088ff"></path><path d="M15.8 21.4a1 1 0 0 1-1-1v-9.2a1 1 0 1 1 2 0v9.2a1 1 0 0 1-1 1zM49.7 59.75H22.3a7.41 7.41 0 0 1-7.4-7.4V29.6a4.06 4.06 0 0 1 2.66-3.85 4.12 4.12 0 0 1 4.59 1.19 15.46 15.46 0 0 1 2.25 4.38c1.37 3.53 2.6 6.58 10.26 6.58H49.8a7.41 7.41 0 0 1 7.4 7.4v7.1a7.51 7.51 0 0 1-7.5 7.35zM19 27.5a2.24 2.24 0 0 0-.78.14 2.05 2.05 0 0 0-1.36 2v22.8a5.47 5.47 0 0 0 5.4 5.31H49.7a5.52 5.52 0 0 0 5.5-5.43v-7a5.47 5.47 0 0 0-5.4-5.4H34.7C25.63 39.9 24 35.73 22.57 32a13.78 13.78 0 0 0-2-3.81A2.06 2.06 0 0 0 19 27.5z" fill="#2088ff"></path><circle cx="27.8" cy="48.4" r="1.7" fill="#2088ff"></circle><circle cx="36.1" cy="48.4" r="1.7" fill="#2088ff"></circle><circle cx="44.3" cy="48.4" r="1.7" fill="#2088ff"></circle></svg>
+
+        <h1 class="alt-h0 lh-condensed-ultra mb-3">Write better code</h1>
+        <p class="alt-lead mb-5 col-md-9 mx-auto">On GitHub, lightweight code review tools are built into every pull request. Your team can create review processes that improve the quality of your code and fit neatly into your workflow.</p>
+
+        <div class="jumbotron-video js-video-container togglevideo pb-6">
+          <p class="togglevideo-hidewhenexpanded text-shadow-dark text-center">
+            <button class="btn-link jumbotron-link-followup js-video-play alt-h4 d-inline-block text-blue" type="button" data-ga-click="Video, play, What is GitHub Video">
+              <svg xmlns="http://www.w3.org/2000/svg" class="jumbotron-followup-icon ml-1 jumbotron-link-followup-icon ml-1" viewBox="0 0 40 40" version="1.1">
+  <title>Play video</title>
+	<g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><g fill="currentColor"><path d="M20 40C31 40 40 31 40 20 40 9 31 0 20 0 9 0 0 9 0 20 0 31 9 40 20 40L20 40ZM20 38C10.1 38 2 29.9 2 20 2 10.1 10.1 2 20 2 29.9 2 38 10.1 38 20 38 29.9 29.9 38 20 38L20 38ZM29.3 20L15 28.8 15 11.1 29.3 20 29.3 20Z"></path></g></g>
+</svg>
+
+              See what's possible
+            </button>
+          </p>
+          <div class="togglevideo-hidewhencollapsed togglevideo-showwhenexpanded video-responsive">
+            <iframe class="js-video-iframe"
+              data-src="https://www.youtube.com/embed/w3jLJU7DT5E?autoplay=1&amp;rel=0"
+              frameborder="0" allowfullscreen>
+            </iframe>
+          </div>
+          <span class="jumbotron-video-close togglevideo-hidewhencollapsed togglevideo-showwhenexpanded">
+            <button class="btn-link text-white js-video-close" type="button"
+                    data-ga-click="Video, close, What is GitHub Video"
+                    aria-label="Close video">
+              <svg aria-hidden="true" class="octicon octicon-x text-gray" height="30" version="1.1" viewBox="0 0 12 16" width="22"><path fill-rule="evenodd" d="M7.48 8l3.75 3.75-1.48 1.48L6 9.48l-3.75 3.75-1.48-1.48L4.52 8 .77 4.25l1.48-1.48L6 6.52l3.75-3.75 1.48 1.48z"/></svg>
+            </button>
+          </span>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="featurette position-relative" style="z-index: 5;">
+  <div class="container-lg p-responsive text-center pt-6">
+    <h2 class="alt-h1 lh-condensed mb-3">Start with a pull request</h2>
+    <p class="lead col-md-8 mx-auto">
+      Pull requests are fundamental to how teams review and improve code on GitHub. Evolve projects, propose new features, and discuss implementation details before changing your source code.
+    </p>
+  </div>
+  <div class="container-lg p-responsive text-center">
+    <h3 class="alt-h2 mt-6 pt-md-4 mb-3">Make a change</h3>
+    <p class="col-md-8 mx-auto">
+      Start a new feature or propose a change to existing code with a pull request—a base for your team to coordinate details and refine your changes.
+    </p>
+    <p class="mb-6 pb-md-4 col-md-8 mx-auto">
+      <a href="https://help.github.com/articles/about-pull-requests/">Learn pull request <span class="no-wrap">fundamentals<svg aria-hidden="true" class="octicon octicon-chevron-right ml-2 v-align-text-bottom" height="16" version="1.1" viewBox="0 0 8 16" width="8"><path fill-rule="evenodd" d="M7.5 8l-5 5L1 11.5 4.75 8 1 4.5 2.5 3z"/></svg></span></a>
+    </p>
+    <img src="https://assets-cdn.github.com/images/modules/site/product-illo/img-pull-request.png" width="980" class="d-block width-fit" alt="">
+  </div>
+</div>
+
+<div class="container-xl p-responsive">
+  <div class="featurette text-center">
+    <h3 class="alt-h2 mb-md-4">See every update</h3>
+    <div class="clearfix gutter-md-spacious">
+      <div class="col-md-4 float-left">
+        <img src="https://assets-cdn.github.com/images/modules/site/product-illo/img-diff.png" width="460" class="width-fit my-4 my-md-6" alt="">
+        <h3 class="alt-h3 mb-3">Diffs</h3>
+        <p>
+          Preview changes in context with your code to see what is being proposed. Side-by-side Diffs highlight added, edited, and deleted code right next to the original file, so you can easily spot changes.
+        </p>
+        <p>
+          <a href="https://help.github.com/articles/about-comparing-branches-in-pull-requests/">Learn how to compare branches with&nbsp;diffs<svg aria-hidden="true" class="octicon octicon-chevron-right ml-2 v-align-text-bottom" height="16" version="1.1" viewBox="0 0 8 16" width="8"><path fill-rule="evenodd" d="M7.5 8l-5 5L1 11.5 4.75 8 1 4.5 2.5 3z"/></svg></a>
+        </p>
+      </div>
+      <div class="col-md-4 float-left">
+        <img src="https://assets-cdn.github.com/images/modules/site/product-illo/img-history.png" width="460" class="width-fit my-4 my-md-6" alt="">
+        <h3 class="alt-h3 mb-3">History</h3>
+        <p>
+          Browse commits, comments, and references related to your pull request in a timeline-style interface. Your pull request will also highlight what’s changed since you last checked.
+        </p>
+        <hr class="mx-auto my-4" width="80">
+        <p class="f6">
+          <span class="text-green text-bold">Pro-tip:</span> You can <a href="https://help.github.com/articles/searching-commits/">search your commit history</a> by keyword, committer, organization, and more.
+        </p>
+      </div>
+      <div class="col-md-4 float-left">
+        <img src="https://assets-cdn.github.com/images/modules/site/product-illo/img-blame.png" width="460" class="width-fit my-4 my-md-6" alt="">
+        <h3 class="alt-h3 mb-3">Blame</h3>
+        <p>
+          See what a file looked like before a particular change. With <a href="https://github.com/blog/2304-navigate-file-history-faster-with-improved-blame-view">blame view</a>, you can see how any portion of your file has evolved over time without viewing the file's full history.
+        </p>
+        <hr class="mx-auto my-4" width="80">
+        <p class="f6">
+          <span class="text-green text-bold">Pro-tip:</span> Use  <code><a href="https://help.github.com/articles/tracing-changes-in-a-file/">git blame</a></code>  to trace the changes in a file.
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="container-lg p-responsive">
+  <div class="featurette text-center text-md-left">
+    <h3 class="alt-h2 text-center mb-3 mb-md-5">Discuss code</h3>
+    <div class="d-flex flex-column flex-md-row flex-md-justify-center gutter-md-spacious">
+      <div class="col-md-5 flex-md-self-center text-center">
+        <img src="https://assets-cdn.github.com/images/modules/site/product-illo/img-comment-simple.png" width="460" class="d-block width-fit mx-auto mb-3" alt="">
+      </div>
+      <div class="col-md-7 col-lg-6 pr-md-5 flex-md-self-center">
+        <h4 class="alt-h3">Comments</h4>
+        <p>
+          On GitHub, conversations happen alongside your code. Leave detailed comments on code syntax and ask questions about structure inline.
+        </p>
+      </div>
+    </div>
+    <hr class="mx-auto my-5 my-md-6" width="80">
+    <div class="d-flex flex-column flex-md-row-reverse flex-md-justify-center gutter-md-spacious">
+      <div class="col-md-5 flex-md-self-center text-center">
+        <img src="https://assets-cdn.github.com/images/modules/site/product-illo/img-review-request-2.png" width="460" class="d-block width-fit mx-auto mb-3" alt="">
+      </div>
+      <div class="col-md-7 col-lg-6 pr-md-5 flex-md-self-center">
+        <h4 class="alt-h3">Review requests</h4>
+        <p>
+          If you’re on the other side of the code, requesting peer reviews is easy. Add users to your pull request, and they’ll receive a notification letting them know you need their feedback.
+        </p>
+      </div>
+    </div>
+    <hr class="mx-auto my-5 my-md-6" width="80">
+    <div class="d-flex flex-column flex-md-row flex-md-justify-center gutter-md-spacious">
+      <div class="col-md-5 flex-md-self-center text-center">
+        <img src="https://assets-cdn.github.com/images/modules/site/product-illo/img-reviews.png" width="460" class="d-block width-fit mx-auto mb-3" alt="">
+      </div>
+      <div class="col-md-7 col-lg-6 pr-md-5 flex-md-self-center">
+        <h4 class="alt-h3">Reviews</h4>
+        <p>
+          Save your teammates a few notifications. Bundle your comments into one cohesive review, then specify whether comments are required changes or just suggestions.
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="featurette text-center border-bottom">
+  <div class="container-lg p-responsive">
+    <h3 class="alt-h2 mb-4">Resolve simple conflicts</h3>
+    <p class="mb-6 col-md-8 mx-auto">
+      You can’t always avoid conflict. Merge pull requests faster by resolving simple merge conflicts on GitHub—no command line necessary.
+    </p>
+    <div class="mb-6 col-md-10 mx-auto">
+      <img src="https://assets-cdn.github.com/images/modules/site/product-illo/img-conflict.png" width="970" class="d-block width-fit" alt="">
+    </div>
+    <p class="mb-6 pb-md-4 col-md-8 mx-auto">
+      Learn how to resolve merge conflicts <a href="https://help.github.com/articles/resolving-a-merge-conflict-on-github/">on GitHub</a> and <a href="https://help.github.com/articles/resolving-a-merge-conflict-using-the-command-line/">using the command line</a>.
+    </p>
+  </div>
+</div>
+
+<div class="featurette text-center">
+  <div class="container-lg p-responsive">
+    <h2 class="alt-h1 lh-condensed mb-3">Merge the highest quality code</h2>
+    <p class="lead mb-2 pb-md-4 col-md-8 mx-auto">
+      Reviews can improve your code, but mistakes happen. Limit human error and ensure only high quality code gets merged with detailed permissions and status&nbsp;checks.
+    </p>
+  </div>
+  <div class="container-xl p-responsive">
+    <div class="d-md-flex flex-wrap gutter-md-spacious">
+      <div class="col-md-4">
+        <svg xmlns="http://www.w3.org/2000/svg" data-name="Layer 1" viewBox="0 0 68.1 59.4" class="d-inline-block mx-auto my-5" width="70"><title>permissions</title><path d="M41.4 26.5a1 1 0 0 1-1-.89 6.47 6.47 0 0 0-6.51-5.71 6.56 6.56 0 0 0-6.51 5.63 1.01 1.01 0 1 1-2-.27 8.57 8.57 0 0 1 8.49-7.37 8.46 8.46 0 0 1 8.49 7.49 1 1 0 0 1-.89 1.1h-.07z" fill="#2088ff"></path><path d="M33.9 19.9a6.4 6.4 0 1 1 6.4-6.4 6.4 6.4 0 0 1-6.4 6.4zm0-10.8a4.4 4.4 0 1 0 4.4 4.4 4.4 4.4 0 0 0-4.4-4.4z" fill="#2088ff"></path><path d="M33.9 34.2A17.1 17.1 0 1 1 51 17.1a17.12 17.12 0 0 1-17.1 17.1zm0-32.2A15.1 15.1 0 1 0 49 17.1 15.12 15.12 0 0 0 33.9 2z" fill="#2088ff"></path><path d="M11.1 59.2a11.1 11.1 0 1 1 11.1-11.1 11.11 11.11 0 0 1-11.1 11.1zm0-20.2a9.1 9.1 0 1 0 9.1 9.1 9.1 9.1 0 0 0-9.1-9.1z" fill="#79b8ff"></path><path d="M18 40.6a1 1 0 0 1-.78-1.6l3.5-4.4a1 1 0 0 1 1.57 1.24l-3.54 4.4a1 1 0 0 1-.75.36zM15.2 53.8a1 1 0 0 1-1-.85 3.2 3.2 0 0 0-3.11-2.75A3.11 3.11 0 0 0 8 52.85a1.011 1.011 0 0 1-2-.3 5.1 5.1 0 0 1 5.09-4.35 5.21 5.21 0 0 1 5.12 4.5 1 1 0 0 1-.84 1.14h-.17z" fill="#79b8ff"></path><path d="M11.1 50.2a3.9 3.9 0 1 1 3.9-3.9 3.9 3.9 0 0 1-3.9 3.9zm0-5.8a1.9 1.9 0 1 0 1.9 1.9 1.9 1.9 0 0 0-1.9-1.9zM56.9 59.4a11.2 11.2 0 1 1 11.2-11.2 11.21 11.21 0 0 1-11.2 11.2zm0-20.4a9.2 9.2 0 1 0 9.2 9.2 9.21 9.21 0 0 0-9.2-9.2z" fill="#79b8ff"></path><path d="M49.9 40.6a1 1 0 0 1-.78-.38l-3.5-4.4a1 1 0 0 1 1.57-1.24l3.5 4.4a1 1 0 0 1-.79 1.62zM61 53.9a1 1 0 0 1-1-.85 3.2 3.2 0 0 0-3.11-2.75 3.13 3.13 0 0 0-3.14 2.7 1.005 1.005 0 0 1-2-.2 5.11 5.11 0 0 1 5.09-4.5 5.21 5.21 0 0 1 5.09 4.45 1 1 0 0 1-.84 1.14H61z" fill="#79b8ff"></path><path d="M56.9 50.3a3.9 3.9 0 1 1 3.9-3.9 3.9 3.9 0 0 1-3.9 3.9zm0-5.8a1.9 1.9 0 1 0 1.9 1.9 1.9 1.9 0 0 0-1.9-1.9z" fill="#79b8ff"></path></svg>
+
+        <h3 class="alt-h3 mb-3">Permissions</h3>
+        <p class="f5">
+          Give collaborators as much access as they need through your repository settings. You can extend access to a few teams and select which ones can read or write to your files. The options you have for permissions depend on your plan.
+        </p>
+        <p class="f5">
+           <a href="/pricing">See plan options<svg aria-hidden="true" class="octicon octicon-chevron-right ml-2 v-align-text-bottom" height="16" version="1.1" viewBox="0 0 8 16" width="8"><path fill-rule="evenodd" d="M7.5 8l-5 5L1 11.5 4.75 8 1 4.5 2.5 3z"/></svg></a>
+         </p>
+      </div>
+      <div class="col-md-4">
+        <svg xmlns="http://www.w3.org/2000/svg" data-name="Layer 1" viewBox="0 0 66.18 58.22" class="d-inline-block mx-auto my-5" width="70"><title>protected-branches</title><path d="M33.09 40.92a1 1 0 0 1-1-1v-22a1 1 0 1 1 2 0v22a1 1 0 0 1-1 1z" fill="#79b8ff"></path><path d="M33.09 18.93a4.64 4.64 0 1 1 4.59-4.69 4.64 4.64 0 0 1-4.59 4.69zm0-7.28a2.64 2.64 0 1 0 2.59 2.69 2.64 2.64 0 0 0-2.59-2.69zM33.09 48.36a4.64 4.64 0 1 1 4.59-4.69 4.64 4.64 0 0 1-4.59 4.69zm0-7.28a2.64 2.64 0 1 0 2.59 2.69 2.64 2.64 0 0 0-2.59-2.62zM33.09 37.82H33a1 1 0 0 1-.87-1.11 8 8 0 0 1 5-6.12 12.25 12.25 0 0 1 4.66-.84c2.34 0 4.09-.6 5.2-1.77a5.46 5.46 0 0 0 1.36-3.7 1.002 1.002 0 0 1 2-.13 7.43 7.43 0 0 1-1.88 5.18c-1.5 1.61-3.75 2.42-6.68 2.42a10.29 10.29 0 0 0-3.91.69A6.05 6.05 0 0 0 34 36.99a1 1 0 0 1-.91.83z" fill="#79b8ff"></path><path d="M18.75 42.18H2.38A2.47 2.47 0 0 1 0 39.8V27.42a2.3 2.3 0 0 1 2.23-2.37h16.52a2.3 2.3 0 0 1 2.38 2.22V39.8a2.3 2.3 0 0 1-2.22 2.38h-.16zM2.38 27.05a.32.32 0 0 0-.38.38V39.8a.52.52 0 0 0 .38.38h16.37a.32.32 0 0 0 .38-.38V27.42a.32.32 0 0 0-.26-.37H2.38z" fill="#2088ff"></path><path d="M17.13 26.18h-2V22.1a4.64 4.64 0 0 0-9.28 0v4.13h-2V22.1a6.64 6.64 0 0 1 13.28 0v4.08z" fill="#2088ff"></path><circle cx="10.63" cy="32.65" r="2.2" fill="#2088ff"></circle><path d="M10.68 37.36a1 1 0 0 1-1-1v-2.75a1 1 0 0 1 2 0v2.75a1 1 0 0 1-1 1z" fill="#2088ff"></path><path d="M49.36 25.2A4.64 4.64 0 1 1 54 20.56a4.64 4.64 0 0 1-4.64 4.64zm0-7.28A2.64 2.64 0 1 0 52 20.56a2.64 2.64 0 0 0-2.64-2.63z" fill="#79b8ff"></path><path d="M37.07 58.22a28.88 28.88 0 0 1-20.85-8.81 1.018 1.018 0 1 1 1.46-1.42 27.09 27.09 0 1 0 0-37.82 1.012 1.012 0 0 1-1.47-1.39 29.11 29.11 0 1 1 20.86 49.44z" fill="#2088ff"></path></svg>
+
+        <h3 class="alt-h3 mb-3">Protected branches</h3>
+        <p class="f5">
+          <a href="https://help.github.com/articles/about-protected-branches/">Protected Branches</a> help you maintain the integrity of your code. Limit who can push to a branch, and disable force pushes to specific branches. Then scale your policies with the <a href="https://developer.github.com/v3/repos/branches/">Protected Branches API</a>.
+        </p>
+      </div>
+      <div class="col-md-4">
+        <svg xmlns="http://www.w3.org/2000/svg" data-name="Layer 1" viewBox="0 0 66.3 58.4" class="d-inline-block mx-auto my-5" width="70"><title>status-checks</title><path d="M39.8 48.3H27a1 1 0 0 1 0-2h12.8a1 1 0 0 1 0 2z" fill="#79b8ff"></path><path fill="#2088ff" d="M21.3 10.1H45v2H21.3z"></path><circle cx="6.6" cy="47.5" r="1.3" fill="#79b8ff"></circle><circle cx="11.1" cy="47.5" r="1.3" fill="#79b8ff"></circle><circle cx="15.9" cy="47.5" r="1.3" fill="#79b8ff"></circle><path d="M11.1 58.4a11.1 11.1 0 1 1 11.1-11.1 11.1 11.1 0 0 1-11.1 11.1zm0-20.2a9.1 9.1 0 1 0 9.1 9.1 9.11 9.11 0 0 0-9.1-9.1z" fill="#2088ff"></path><path fill="#2088ff" d="M18.628 40.493l28.51-23.027 1.26 1.56-28.51 23.027z"></path><path d="M55.2 22.2a11.1 11.1 0 1 1 11.1-11.1 11.1 11.1 0 0 1-11.1 11.1zm0-20.2a9.1 9.1 0 1 0 9.1 9.1A9.1 9.1 0 0 0 55.2 2zM11.1 22.2a11.1 11.1 0 1 1 11.1-11.1 11.11 11.11 0 0 1-11.1 11.1zm0-20.2a9.1 9.1 0 1 0 9.1 9.1A9.11 9.11 0 0 0 11.1 2z" fill="#2088ff"></path><path d="M9.7 15a1 1 0 0 1-.7-.29L6.29 12a1 1 0 0 1 1.41-1.4l2 2 5.09-5.09a1 1 0 0 1 1.41 1.41l-5.8 5.8a1 1 0 0 1-.7.28zM53.6 15a1 1 0 0 1-.7-.29L50.2 12a1 1 0 0 1 1.41-1.41l2 2L58.8 7.5a1 1 0 0 1 1.4 1.43l-5.9 5.8a1 1 0 0 1-.7.27z" fill="#2088ff"></path><path d="M55.2 58.4a11.1 11.1 0 1 1 11.1-11.1 11.1 11.1 0 0 1-11.1 11.1zm0-20.2a9.1 9.1 0 1 0 9.1 9.1 9.1 9.1 0 0 0-9.1-9.1z" fill="#79b8ff"></path></svg>
+
+        <h3 class="alt-h3 mb-3">Required status checks</h3>
+        <p class="f5">
+          Create required status checks to add an extra layer of error prevention on branches. Use the <a href="https://developer.github.com/v3/repos/statuses/">Status API</a> to enforce checks and disable the merge button until they pass. To err is human; to automate, divine!
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="featurette bg-gray-light">
+  <div class="container-lg p-responsive">
+    <h2 class="alt-h1 text-center lh-condensed mb-3">Bulletproof your review process</h2>
+    <p class="lead text-center mb-2 pb-md-4 col-md-8 mx-auto">
+      Build on GitHub with review tools to avoid human error and add extra polish to your team’s code with review tools.
+    </p>
+    <div class="d-flex flex-wrap gutter-md-spacious mt-md-6">
+      <div class="col-md-6 mb-4">
+        <div class="d-flex flex-items-center">
+          <a href="/marketplace/codecov">
+            <div class="CircleBadge CircleBadge--medium CircleBadge--feature" style="background-color: #fc2b6a;">
+              <img src="https://assets-cdn.github.com/images/modules/site/integrators/codecov.png" alt="Codecov" class="CircleBadge-icon">
+            </div>
+          </a>
+          <div class="pl-4">
+            <h3 class="alt-h4">
+              <a href="/marketplace/codecov">Codecov</a>
+            </h3>
+            <p>Group, merge, archive and compare coverage reports</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 mb-4">
+        <div class="d-flex flex-items-center">
+          <a href="/marketplace/codacy">
+            <div class="CircleBadge CircleBadge--medium CircleBadge--feature" style="background-color: #242C33;">
+              <img src="https://assets-cdn.github.com/images/modules/site/integrators/codacy-dark.png" alt="Codacy" class="CircleBadge-icon">
+            </div>
+          </a>
+          <div class="pl-4">
+            <h3 class="alt-h4">
+              <a href="/marketplace/codacy">Codacy</a>
+            </h3>
+            <p>Automated code reviews to help developers ship better software, faster</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="d-flex flex-wrap gutter-md-spacious mt-md-6">
+      <div class="col-md-6 mb-4">
+        <div class="d-flex flex-items-center">
+          <a href="/marketplace/coveralls">
+            <div class="CircleBadge CircleBadge--medium CircleBadge--feature" style="background-color: #FFFFFF;">
+              <img src="https://assets-cdn.github.com/images/modules/site/integrators/coveralls.png" alt="Coveralls" class="CircleBadge-icon">
+            </div>
+          </a>
+          <div class="pl-4">
+            <h3 class="alt-h4">
+              <a href="/marketplace/coveralls">Coveralls</a>
+            </h3>
+            <p>Ensure that new code is fully covered, and see coverage trends emerge</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 mb-4">
+        <div class="d-flex flex-items-center">
+          <a href="/works-with/category/code-review">
+            <div class="CircleBadge CircleBadge--medium CircleBadge--feature" style="background-color: #353e4f;">
+              <img src="https://assets-cdn.github.com/images/modules/site/integrators/codefactor.png" alt="Gitcolony" class="CircleBadge-icon">
+            </div>
+          </a>
+          <div class="pl-4">
+            <h3 class="alt-h4">
+              <a href="/works-with/category/code-review">CodeFactor</a>
+            </h3>
+            <p>Automated Code Review for GitHub</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="featurette">
+  <div class="container-lg p-responsive currency-container">
+    <h2 class="alt-h1 text-center">Ready to sign up?</h2>
+    <div class="plans-cards pt-3 my-3">
+      <div class="plans-card col-12 col-sm-8 col-md-4 text-center bg-white border rounded-1">
+  <a class="d-block mb-0 py-2 px-3 border-bottom text-blue no-underline" href="/pricing/developer">
+    <h2 class="alt-h3">Developer</h2>
+  </a>
+  <div class="plans-card-text p-3">
+    <h3 class="alt-h2 text-normal mb-0 lh-condensed">
+      <span class="default-currency">$7</span>
+      <span class="local-currency">$7</span>
+    </h3>
+    <p class="mb-4 alt-text-small text-gray">
+      per month
+    </p>
+
+    <h4 class="alt-h4 lh-condensed mb-1">Includes:</h4>
+    <ul class="list-style-none lh-condensed">
+      <li class="mb-1">Personal account</li>
+      <li class="mb-1">Unlimited public repositories</li>
+      <li class="mb-1">Unlimited private repositories</li>
+      <li class="mb-1">Unlimited collaborators</li>
+    </ul>
+
+    <p class="alt-text-small mt-4 mb-0 text-gray">
+      Free for students as part of the <a class="text-blue" href="https://education.github.com/pack">Student Developer Pack</a>.
+    </p>
+  </div>
+    <a href="/join?plan=pro&amp;source=button-pricing" class="btn btn-block btn-outline f4 plans-card-btn" data-ga-deferred="[[&quot;ec:addImpression&quot;,{&quot;name&quot;:&quot;Developer&quot;,&quot;category&quot;:&quot;Plan&quot;,&quot;position&quot;:1}]]">Sign up</a>
+</div>
+
+      <div class="plans-card col-12 col-sm-8 col-md-4 text-center bg-white border rounded-1">
+  <a class="d-block mb-0 py-2 px-3 border-bottom text-green no-underline" href="/pricing/team">
+    <h2 class="alt-h3">Team</h2>
+  </a>
+  <div class="plans-card-text p-3">
+    <h3 class="alt-h2 text-normal mb-0 lh-condensed">
+      <span class="default-currency">$9</span>
+      <span class="local-currency">$9</span>
+    </h3>
+    <p class="mb-4 alt-text-small text-gray">
+      per user / month
+    </p>
+
+    <h4 class="alt-h4 lh-condensed mb-1">Includes:</h4>
+    <ul class="list-style-none lh-condensed">
+      <li class="mb-1">Organization account</li>
+      <li class="mb-1">Unlimited public repositories</li>
+      <li class="mb-1">Unlimited private repositories</li>
+      <li class="mb-1">Team and user permissions</li>
+    </ul>
+
+    <p class="alt-text-small mt-4 mb-0 text-gray">
+      Starting at
+      <span class="text-gray-dark"><span class="default-currency">$25</span><span class="local-currency">$25</span></span>
+      / month which includes your first 5 users.
+    </p>
+  </div>
+
+    <a href="/join?plan=business&amp;setup_organization=true&amp;source=button-pricing" class="btn btn-block btn-outline-green f4 plans-card-btn" data-ga-deferred="[[&quot;ec:addImpression&quot;,{&quot;name&quot;:&quot;Team&quot;,&quot;category&quot;:&quot;Plan&quot;,&quot;position&quot;:2}]]">Sign up your team</a>
+</div>
+
+      <div class="plans-card plans-card-business col-12 col-sm-8 text-center bg-white border rounded-1">
+  <a class="d-block mb-0 py-2 px-3 border-bottom text-purple no-underline" href="/pricing/business-hosted">
+    <h2 class="alt-h3">Business</h2>
+  </a>
+
+  <div class="plans-card-business-contact text-center">
+    <a href="https://enterprise.github.com/contact">Contact us to learn more</a>
+  </div>
+
+  <div class="d-flex flex-auto">
+    <div class="plans-card-text">
+      <div class="plans-card-text-split p-3">
+        <h3 class="alt-h2 text-normal mb-0 lh-condensed">
+          <span class="default-currency">$21</span>
+          <span class="local-currency">$21</span>
+        </h3>
+        <p class="mb-4 alt-text-small text-gray text-center lh-condensed">
+          per user / month
+        </p>
+        <h4 class="alt-h4 lh-condensed mb-1">
+          <a class="text-purple" href="/pricing/business-hosted">Hosted on<br> GitHub.com</a>
+        </h4>
+        <ul class="list-style-none text-center mb-2 lh-condensed">
+          <li class="mb-1">Organization account</li>
+          <li class="mb-1">SAML single sign-on</li>
+          <li class="mb-1">Access provisioning</li>
+          <li class="mb-1">24/5 support with 8-hour response time</li>
+          <li class="mb-1">99.95% Uptime SLA</li>
+          <li>Team sync (coming soon)</li>
+        </ul>
+      </div>
+
+        <a href="/join?plan=business_plus&amp;setup_organization=true&amp;source=button-pricing"
+          class="btn btn-block btn-outline-purple f4 plans-card-btn"
+          data-ga-deferred="[[&quot;ec:addImpression&quot;,{&quot;name&quot;:&quot;Business&quot;,&quot;category&quot;:&quot;Plan&quot;,&quot;position&quot;:3}]]">
+          Get started
+        </a>
+    </div>
+    <div class="plans-card-text">
+      <div class="plans-card-text-split p-3">
+        <h3 class="alt-h2 text-normal mb-0 lh-condensed">
+          <span class="default-currency">$21</span>
+          <span class="local-currency">$21</span>
+          <sup class="plans-card-pricing-footnote">*</sup>
+        </h3>
+        <p class="mb-4 alt-text-small text-gray text-center lh-condensed">
+          per user / month
+        </p>
+        <h4 class="alt-h4 lh-condensed mb-1">
+          <a class="text-purple" href="/pricing/business-enterprise">
+            GitHub<br> Enterprise
+          </a>
+        </h4>
+        <ul class="list-style-none text-center mb-2 lh-condensed">
+          <li class="mb-1">Multiple organizations</li>
+          <li class="mb-1">SAML, LDAP, and CAS</li>
+          <li class="mb-1">Access provisioning</li>
+          <li class="mb-1">24/7 support for urgent issues</li>
+          <li class="mb-1">Advanced auditing</li>
+          <li>Host on your servers, AWS, Azure, or GCP</li>
+        </ul>
+      </div>
+      <a href="https://enterprise.github.com/trial" class="btn btn-block btn-outline-purple f4 plans-card-btn">Start a free trial</a>
+    </div>
+  </div>
+</div>
+
+    </div>
+
+    <div class="col-md-6 mx-auto f5 text-gray text-center">
+        <p>
+          Don’t need unlimited private repositories?
+          <a href="/join?source=pricing-page-new" class="text-blue">Sign up for one of our free plans</a>
+          for unlimited public and open source projects.
+        </p>
+      <p>
+        * Sold in packs of <span class="text-gray-dark">10</span> users and billed annually.
+      </p>
+    </div>
+
+
+    <div class="local-currency-block">
+      <div class="col-md-6 mx-auto alt-text-small">Charges to your account will be made in <strong>US Dollars</strong>. Converted prices are
+provided as a convenience and are only an <em>estimate</em> based on <em>current</em> exchange
+rates. Local prices will change as the exchange rate fluctuates.
+</div>
+    </div>
+  </div>
+</div>
+
+
+<div class="text-center border-y py-4">
+  <a href="/features"><svg aria-hidden="true" class="octicon octicon-arrow-left mr-2 v-align-middle pb-1" height="22" version="1.1" viewBox="0 0 10 16" width="13"><path fill-rule="evenodd" d="M6 3L0 8l6 5v-3h4V6H6z"/></svg>Back to all features</a>
+</div>
+
+  <div class="modal-backdrop js-touch-events"></div>
+
+  </div>
+
+        <div class="footer container-lg p-responsive mt-6" role="contentinfo">
+  <div class="d-flex flex-wrap py-5 mb-5">
+    <div class="col-12 col-md-2 mb-3">
+      <svg aria-hidden="true" class="octicon octicon-logo-github" height="24" version="1.1" viewBox="0 0 45 16" width="67"><path fill-rule="evenodd" d="M18.53 12.03h-.02c.009 0 .015.01.024.011h.006l-.01-.01zm.004.011c-.093.001-.327.05-.574.05-.78 0-1.05-.36-1.05-.83V8.13h1.59c.09 0 .16-.08.16-.19v-1.7c0-.09-.08-.17-.16-.17h-1.59V3.96c0-.08-.05-.13-.14-.13h-2.16c-.09 0-.14.05-.14.13v2.17s-1.09.27-1.16.28c-.08.02-.13.09-.13.17v1.36c0 .11.08.19.17.19h1.11v3.28c0 2.44 1.7 2.69 2.86 2.69.53 0 1.17-.17 1.27-.22.06-.02.09-.09.09-.16v-1.5a.177.177 0 0 0-.146-.18zm23.696-2.2c0-1.81-.73-2.05-1.5-1.97-.6.04-1.08.34-1.08.34v3.52s.49.34 1.22.36c1.03.03 1.36-.34 1.36-2.25zm2.43-.16c0 3.43-1.11 4.41-3.05 4.41-1.64 0-2.52-.83-2.52-.83s-.04.46-.09.52c-.03.06-.08.08-.14.08h-1.48c-.1 0-.19-.08-.19-.17l.02-11.11c0-.09.08-.17.17-.17h2.13c.09 0 .17.08.17.17v3.77s.82-.53 2.02-.53l-.01-.02c1.2 0 2.97.45 2.97 3.88zm-8.72-3.61H33.84c-.11 0-.17.08-.17.19v5.44s-.55.39-1.3.39-.97-.34-.97-1.09V6.25c0-.09-.08-.17-.17-.17h-2.14c-.09 0-.17.08-.17.17v5.11c0 2.2 1.23 2.75 2.92 2.75 1.39 0 2.52-.77 2.52-.77s.05.39.08.45c.02.05.09.09.16.09h1.34c.11 0 .17-.08.17-.17l.02-7.47c0-.09-.08-.17-.19-.17zm-23.7-.01h-2.13c-.09 0-.17.09-.17.2v7.34c0 .2.13.27.3.27h1.92c.2 0 .25-.09.25-.27V6.23c0-.09-.08-.17-.17-.17zm-1.05-3.38c-.77 0-1.38.61-1.38 1.38 0 .77.61 1.38 1.38 1.38.75 0 1.36-.61 1.36-1.38 0-.77-.61-1.38-1.36-1.38zm16.49-.25h-2.11c-.09 0-.17.08-.17.17v4.09h-3.31V2.6c0-.09-.08-.17-.17-.17h-2.13c-.09 0-.17.08-.17.17v11.11c0 .09.09.17.17.17h2.13c.09 0 .17-.08.17-.17V8.96h3.31l-.02 4.75c0 .09.08.17.17.17h2.13c.09 0 .17-.08.17-.17V2.6c0-.09-.08-.17-.17-.17zM8.81 7.35v5.74c0 .04-.01.11-.06.13 0 0-1.25.89-3.31.89-2.49 0-5.44-.78-5.44-5.92S2.58 1.99 5.1 2c2.18 0 3.06.49 3.2.58.04.05.06.09.06.14L7.94 4.5c0 .09-.09.2-.2.17-.36-.11-.9-.33-2.17-.33-1.47 0-3.05.42-3.05 3.73s1.5 3.7 2.58 3.7c.92 0 1.25-.11 1.25-.11v-2.3H4.88c-.11 0-.19-.08-.19-.17V7.35c0-.09.08-.17.19-.17h3.74c.11 0 .19.08.19.17z"/></svg>
+      <p class="text-gray alt-text-small">
+        &copy; 2017
+      </p>
+    </div>
+    <div class="col-6 col-sm-4 col-md-2 mb-3 pr-3">
+      <h4 class="mb-2">Features</h4>
+      <ul class="list-style-none text-gray">
+        <li class="lh-condensed mb-2"><a href="/features#code-review" class="muted-link alt-text-small">Code review</a></li>
+        <li class="lh-condensed mb-2"><a href="/features#project-management" class="muted-link alt-text-small">Project management</a></li>
+        <li class="lh-condensed mb-2"><a href="/features#community-management" class="muted-link alt-text-small">Community</a></li>
+        <li class="lh-condensed mb-2"><a href="/features#documentation" class="muted-link alt-text-small no-wrap">Documentation</a></li>
+        <li class="lh-condensed mb-2"><a href="/features#code-hosting" class="muted-link alt-text-small">Code hosting</a></li>
+      </ul>
+    </div>
+    <div class="col-6 col-sm-4 col-md-2 mb-3 pr-3">
+      <h4 class="mb-2">Platform</h4>
+      <ul class="list-style-none">
+        <li class="lh-condensed mb-2"><a href="https://atom.io" class="muted-link alt-text-small">Atom</a></li>
+        <li class="lh-condensed mb-2"><a href="http://electron.atom.io/" class="muted-link alt-text-small">Electron</a></li>
+        <li class="lh-condensed mb-2"><a href="https://desktop.github.com/" class="muted-link alt-text-small">GitHub Desktop</a></li>
+        <li class="lh-condensed mb-2"><a href="https://developer.github.com" data-ga-click="Footer, go to api, text:api" class="muted-link alt-text-small">Developers</a></li>
+      </ul>
+    </div>
+    <div class="col-6 col-sm-4 col-md-2 mb-3 pr-3">
+      <h4 class="mb-2">Community</h4>
+      <ul class="list-style-none">
+        <li class="lh-condensed mb-2"><a href="/personal" class="muted-link alt-text-small">Personal</a></li>
+        <li class="lh-condensed mb-2"><a href="/open-source" class="muted-link alt-text-small">Open source</a></li>
+        <li class="lh-condensed mb-2"><a href="/business" class="muted-link alt-text-small">Business</a></li>
+        <li class="lh-condensed mb-2"><a href="https://education.github.com/" class="muted-link alt-text-small">Education</a></li>
+        <li class="lh-condensed mb-2"><a href="/business/customers" class="muted-link alt-text-small">Customers</a></li>
+        <li class="lh-condensed mb-2"><a href="https://partner.github.com/" class="muted-link alt-text-small">Partners</a></li>
+        <li class="lh-condensed mb-2"><a href="https://community.github.com/" class="muted-link alt-text-small">Sponsorships</a></li>
+      </ul>
+    </div>
+    <div class="col-6 col-sm-4 col-md-2 mb-3 pr-3">
+      <h4 class="mb-2">Company</h4>
+      <ul class="list-style-none">
+        <li class="lh-condensed mb-2"><a href="https://github.com/about" class="muted-link alt-text-small" data-ga-click="Footer, go to about, text:about">About</a></li>
+        <li class="lh-condensed mb-2"><a href="https://github.com/blog" class="muted-link alt-text-small" data-ga-click="Footer, go to blog, text:blog">Blog</a></li>
+        <li class="lh-condensed mb-2"><a href="/about/careers" class="muted-link alt-text-small">Careers</a></li>
+        <li class="lh-condensed mb-2"><a href="/about/press" class="muted-link alt-text-small">Press</a></li>
+        <li class="lh-condensed mb-2"><a href="https://shop.github.com" class="muted-link alt-text-small">Shop</a></li>
+      </ul>
+    </div>
+    <div class="col-6 col-sm-4 col-md-2 mb-3 pr-3">
+      <h4 class="mb-2">Resources</h4>
+      <ul class="list-style-none">
+        <li class="lh-condensed mb-2"><a href="https://github.com/contact" class="muted-link alt-text-small" data-ga-click="Footer, go to contact, text:contact">Contact GitHub</a></li>
+        <li class="lh-condensed mb-2"><a href="https://github.community" data-ga-click="Footer, go to community, text:community" class="muted-link alt-text-small">GitHub Community Forum</a></li>
+        <li class="lh-condensed mb-2"><a href="https://help.github.com" class="muted-link alt-text-small" data-ga-click="Footer, go to help, text:help">Help</a></li>
+        <li class="lh-condensed mb-2"><a href="https://status.github.com/" data-ga-click="Footer, go to status, text:status" class="muted-link alt-text-small">Status</a></li>
+        <li class="lh-condensed mb-2"><a href="https://github.com/site/terms" class="muted-link alt-text-small" data-ga-click="Footer, go to terms, text:terms">Terms</a></li>
+        <li class="lh-condensed mb-2"><a href="https://github.com/site/privacy" class="muted-link alt-text-small" data-ga-click="Footer, go to privacy, text:privacy">Privacy</a></li>
+        <li class="lh-condensed mb-2"><a href="https://github.com/security" class="muted-link alt-text-small" data-ga-click="Footer, go to security, text:security">Security</a></li>
+        <li class="lh-condensed mb-2"><a href="https://services.github.com/" class="muted-link alt-text-small">Training</a></li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+
+
+
+  <div id="ajax-error-message" class="ajax-error-message flash flash-error">
+    <svg aria-hidden="true" class="octicon octicon-alert" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M8.865 1.52c-.18-.31-.51-.5-.87-.5s-.69.19-.87.5L.275 13.5c-.18.31-.18.69 0 1 .19.31.52.5.87.5h13.7c.36 0 .69-.19.86-.5.17-.31.18-.69.01-1L8.865 1.52zM8.995 13h-2v-2h2v2zm0-3h-2V6h2v4z"/></svg>
+    <button type="button" class="flash-close js-ajax-error-dismiss" aria-label="Dismiss error">
+      <svg aria-hidden="true" class="octicon octicon-x" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path fill-rule="evenodd" d="M7.48 8l3.75 3.75-1.48 1.48L6 9.48l-3.75 3.75-1.48-1.48L4.52 8 .77 4.25l1.48-1.48L6 6.52l3.75-3.75 1.48 1.48z"/></svg>
+    </button>
+    You can't perform that action at this time.
+  </div>
+
+
+    <script crossorigin="anonymous" src="https://assets-cdn.github.com/assets/compat-e42a8bf9c380758734e39851db04de7cbeeb2f3860efbd481c96ac12c25a6ecb.js"></script>
+    <script crossorigin="anonymous" src="https://assets-cdn.github.com/assets/frameworks-47b737794a7ae33931d1a50a8070fc47204c413c42458a9781430b1de038e39d.js"></script>
+    
+    <script async="async" crossorigin="anonymous" src="https://assets-cdn.github.com/assets/github-3b32b813f3a2a4215435ec5145609eb8c7ac37dad3ae5c515d0e640b3d279366.js"></script>
+    
+    
+    
+    
+  <div class="js-stale-session-flash stale-session-flash flash flash-warn flash-banner d-none">
+    <svg aria-hidden="true" class="octicon octicon-alert" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M8.865 1.52c-.18-.31-.51-.5-.87-.5s-.69.19-.87.5L.275 13.5c-.18.31-.18.69 0 1 .19.31.52.5.87.5h13.7c.36 0 .69-.19.86-.5.17-.31.18-.69.01-1L8.865 1.52zM8.995 13h-2v-2h2v2zm0-3h-2V6h2v4z"/></svg>
+    <span class="signed-in-tab-flash">You signed in with another tab or window. <a href="">Reload</a> to refresh your session.</span>
+    <span class="signed-out-tab-flash">You signed out in another tab or window. <a href="">Reload</a> to refresh your session.</span>
+  </div>
+  <div class="facebox" id="facebox" style="display:none;">
+  <div class="facebox-popup">
+    <div class="facebox-content" role="dialog" aria-labelledby="facebox-header" aria-describedby="facebox-description">
+    </div>
+    <button type="button" class="facebox-close js-facebox-close" aria-label="Close modal">
+      <svg aria-hidden="true" class="octicon octicon-x" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path fill-rule="evenodd" d="M7.48 8l3.75 3.75-1.48 1.48L6 9.48l-3.75 3.75-1.48-1.48L4.52 8 .77 4.25l1.48-1.48L6 6.52l3.75-3.75 1.48 1.48z"/></svg>
+    </button>
+  </div>
+</div>
+
+
+  </body>
+</html>
+
